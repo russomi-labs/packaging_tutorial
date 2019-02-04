@@ -142,4 +142,4 @@ for a discussion on differences between the two.
 
 * https://test.pypi.org/account/register/
 * https://packaging.python.org/tutorials/packaging-projects/
-* 
+* https://stackoverflow.com/questions/30306099/pip-install-editable-vs-python-setup-py-develop

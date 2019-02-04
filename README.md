@@ -125,8 +125,21 @@ You can test that it was installed correctly by importing the module and referen
 
 Congratulations, you’ve packaged and distributed a Python project! ✨ 🍰 ✨
 
+## Installing the `editable` version of the package for local development
+
+The `pip` way:
+
+    pip install -e /path/to/mypackage
+    
+The `setuptools` way:
+
+    python /path/to/mypackage/setup.py develop
+
+See [“pip install --editable ./” vs “python setup.py develop”](https://stackoverflow.com/questions/30306099/pip-install-editable-vs-python-setup-py-develop)
+for a discussion on differences between the two.
+
 ## Reference
 
 * https://test.pypi.org/account/register/
 * https://packaging.python.org/tutorials/packaging-projects/
-
+* 
